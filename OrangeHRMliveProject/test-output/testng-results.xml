@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17805" started-at="2020-11-01T16:44:13 IST" finished-at="2020-11-01T16:44:31 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17805" started-at="2020-11-01T16:44:13 IST" finished-at="2020-11-01T16:44:31 IST">
+      <class name="com.OrangeHRMlive.Tests.LoginTest">
+        <test-method status="PASS" signature="setUpDataProviders()[pri:0, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="setUpDataProviders" is-config="true" duration-ms="189" started-at="2020-11-01T16:44:13 IST" finished-at="2020-11-01T16:44:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDataProviders -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="setUpBrowser" is-config="true" duration-ms="16282" started-at="2020-11-01T16:44:13 IST" finished-at="2020-11-01T16:44:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="verifyTitle" duration-ms="24" started-at="2020-11-01T16:44:29 IST" finished-at="2020-11-01T16:44:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="tearDownMethod" is-config="true" duration-ms="602" started-at="2020-11-01T16:44:29 IST" finished-at="2020-11-01T16:44:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=LoginTest.verifyTitle()[pri:1, instance:com.OrangeHRMlive.Tests.LoginTest@79079097] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="FAIL" signature="verifyLogout(com.OrangeHRMlive.Utility.Controller)[pri:2, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="verifyLogout" duration-ms="0" started-at="2020-11-01T16:44:30 IST" finished-at="2020-11-01T16:44:30 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot inject @Test annotated Method [verifyLogout] with [class com.OrangeHRMlive.Utility.Controller].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [verifyLogout] with [class com.OrangeHRMlive.Utility.Controller].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:437)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:351)
+at org.testng.internal.Parameters.createParameters(Parameters.java:708)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogout -->
+        <test-method status="PASS" signature="tearDownBrowser()[pri:0, instance:com.OrangeHRMlive.Tests.LoginTest@79079097]" name="tearDownBrowser" is-config="true" duration-ms="843" started-at="2020-11-01T16:44:30 IST" finished-at="2020-11-01T16:44:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+      </class> <!-- com.OrangeHRMlive.Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
